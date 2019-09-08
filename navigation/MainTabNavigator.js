@@ -9,6 +9,7 @@ import StudySpacesScreen from "../screens/StudySpacesScreen";
 import PeopleScreen from "../screens/PeopleScreen";
 import RoomsScreen from "../screens/RoomsScreen";
 import SettingsScreen from "../screens/SettingsScreen";
+import UnionScreen from "../screens/UnionScreen";
 
 const screens = {
   Timetable: {
@@ -25,6 +26,9 @@ const screens = {
   },
   Settings: {
     screen: SettingsScreen,
+  },
+  Union: {
+    screen: UnionScreen, 
   },
 };
 
@@ -48,6 +52,9 @@ export default createBottomTabNavigator(screens, {
           break;
         case "Settings":
           iconName = "settings";
+          break;
+        case "Union":
+          iconName = "heart";
           break;
         default:
           iconName = "info";

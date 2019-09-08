@@ -8,3 +8,5 @@ export const NOTIFICATIONS_URL = `${ASSISTANT_API_URL}/notifications`;
 export const ROOMS_URL = `${ASSISTANT_API_URL}/search/rooms`;
 export const ROOMBOOKINGS_URL = `${ASSISTANT_API_URL}/roombookings`;
 export const EQUIPMENT_URL = `${ASSISTANT_API_URL}/equipment`;
+export const EVENTS_URL = `${ASSISTANT_API_URL}/events`;
+export const JOB_SHOP_URL = `${ASSISTANT_API_URL}/jobs`;

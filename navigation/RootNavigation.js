@@ -8,6 +8,8 @@ import StudySpaceDetailScreen from "../screens/StudySpaceDetailScreen";
 import FAQScreen from "../screens/FAQScreen";
 import LiveSeatingMapScreen from "../screens/LiveSeatingMapScreen";
 import RoomDetailScreen from "../screens/RoomDetailScreen";
+import JobShopScreen from "../screens/JobShopScreen/JobShopScreen";
+import EventsScreen from "../screens/EventsScreen/EventsScreen";
 
 const RootStackNavigator = createStackNavigator(
   {
@@ -37,6 +39,12 @@ const RootStackNavigator = createStackNavigator(
     },
     RoomDetail: {
       screen: RoomDetailScreen,
+    },
+    JobShop: {
+      screen: JobShopScreen,
+    },
+    Events: {
+      screen: EventsScreen,
     },
   },
   {
