@@ -1,3 +1,12 @@
+# Integration With UCL Union
+
+Fork with functionality to get the events and the jobs from the union site using a
+python script found in another repo. 
+
+## Future Plans
+
+Integration with Django backend to make functionality avaliable to all users :)
+
 # UCL Assistant - App
 
 App source code for UCL Assistant.
